@@ -19,7 +19,13 @@ GET http://localhost:8080/pokemon/1/name
 ###
 GET http://localhost:8080/pokemon/1/base
 
+###
+POST http://localhost:8080/score
+Content-Type: application/json
 
+{
+    "score": "Player One Wins"
+}
 
 
 
